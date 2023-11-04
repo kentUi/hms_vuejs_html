@@ -1,0 +1,15 @@
+create a new repository on the command line
+
+echo "# hospital-mngt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M console
+git remote add origin https://github.com/kentUi/hospital-mngt.git
+git push -u origin console
+
+push an existing repository from the command line
+
+git remote add origin https://github.com/kentUi/hospital-mngt.git
+git branch -M console
+git push -u origin console
